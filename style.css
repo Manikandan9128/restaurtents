@@ -1,0 +1,13 @@
+.resturant-image {
+  width: 10vw;
+  height: 18vh;
+  /* b */
+  /* border-color:; */
+}
+body {
+  height: 100vh;
+}
+.content-image {
+  height: 50vh;
+  width: 50vw;
+}
