@@ -13,7 +13,7 @@ $id= $_GET["ratingid"];
       echo $ratingdata=$_POST["ratingvalue"];
       echo  $username=$_POST["username"];
       echo  $userreview=$_POST["userreview"];
-       $sql="insert into review(ratingdata,username,userreview)values('$ratingdata','$username','$userreview')";
+       $sql="insert into reviews(ratingdata,username,userreview)values('$ratingdata','$username','$userreview')";
        $result=mysqli_query($conn,$sql);
        
       }
